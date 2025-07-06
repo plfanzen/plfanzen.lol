@@ -32,3 +32,14 @@ html, body {
     padding: 0;
     overflow: hidden;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+
+    body a {
+        color: #fff;
+    }
+}

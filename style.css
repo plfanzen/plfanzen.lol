@@ -55,6 +55,6 @@ html, body {
     background-color: red;
     color: white;
     padding: 1rem;
-    max-width: min(600px, 90vw);
+    max-width: min(620px, 90vw);
     margin-top: 2rem;
 }

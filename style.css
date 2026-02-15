@@ -7,11 +7,11 @@
 }*/
 
 @font-face {
-    font-family: "Excalifont";
-    src: url("https://excalidraw.nyc3.cdn.digitaloceanspaces.com/fonts/Excalifont-Regular.woff2")
+  font-family: "Excalifont";
+  src: url("https://excalidraw.nyc3.cdn.digitaloceanspaces.com/fonts/Excalifont-Regular.woff2")
     format("woff2");
-    font-weight: normal;
-    font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
 body {
   font-family: "Excalifont", sans-serif;
@@ -20,41 +20,50 @@ body {
   align-items: center;
   justify-content: center;
   width: 100dvw;
-    height: 100dvh;
+  height: 100dvh;
+  padding: 1rem;
 }
 
 body img {
-    height: 30vh;
-    max-width: 95vw;
+  height: 30vh;
+  max-width: 95vw;
 }
 
-body a {
-    color: #000;
-    text-decoration: none;
-    font-size: 2rem;
+body a, body p {
+  text-decoration: none;
+  font-size: 2rem;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+body p {
+    max-width: 50rem;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.box {
+    background-color: #06ad2a;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #000;
-        color: #fff;
-    }
-
-    body a {
-        color: #fff;
-    }
+  body {
+    background-color: #000;
+    color: #fff;
+  }
 }
 
 .alert {
-    background-color: red;
-    color: white;
-    padding: 1rem;
-    max-width: min(620px, 90vw);
-    margin-top: 2rem;
+  background-color: red;
+  color: white;
+  padding: 1rem;
+  max-width: min(620px, 90vw);
+  margin-top: 2rem;
 }

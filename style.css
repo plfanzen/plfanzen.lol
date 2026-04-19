@@ -13,6 +13,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   margin: 0;
   min-height: 100dvh;
@@ -20,6 +21,7 @@ body {
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .page {
@@ -44,12 +46,18 @@ body h2 {
   margin: 2.5rem 0 0.75rem;
 }
 
+body h3 {
+  font-family: "Excalifont", sans-serif;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  margin: 2rem 0 0.5rem;
+}
+
 body img {
   width: min(18rem, 70vw);
   height: auto;
 }
 
-body a,
+body a:not(small > a),
 body p,
 body li {
   font-size: clamp(1rem, 2vw, 1.125rem);

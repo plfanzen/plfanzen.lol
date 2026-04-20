@@ -6,6 +6,10 @@
   font-style: normal;
 }*/
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Excalifont";
   src: url("https://excalidraw.nyc3.cdn.digitaloceanspaces.com/fonts/Excalifont-Regular.woff2")
@@ -119,4 +123,16 @@ body li > ul {
   padding: 1rem;
   max-width: min(620px, 90vw);
   margin-top: 2rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+footer img {
+  width: 10rem;
 }

@@ -136,3 +136,13 @@ footer {
 footer img {
   width: 10rem;
 }
+
+.discord-link {
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}

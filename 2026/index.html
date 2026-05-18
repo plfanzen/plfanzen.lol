@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>plfanzen</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+  </head>
+  <body id="main">
+    <main class="page">
+      <a href="/" class="back-link">← back to homepage</a>
+      <header class="hero">
+        <img src="/assets/plfanzen.svg" alt="plfanzen logo" />
+        <h1>plfanzen CFT</h1>
+      </header>
+
+      <p>
+        What originally started as a joke at
+        <a href="https://ctftime.org/event/2828">DHM</a> has now evolved into a
+        CTF with chall authors from all across the DACH region, and more :)
+      </p>
+
+      <p>
+        The CTF is aimed at more experienced players, but will (probably) also
+        contain a few intro challenges, and some zaje, maybe even both :)
+      </p>
+
+      <p>
+        Plfanzen CTF is a team event for teams of any size. You can also
+        participate on your own!
+      </p>
+
+      <p class="box">
+        <a href="./scoreboards/">View results</a>
+      </p>
+
+      <a href="https://discord.gg/cRempgxbGw" class="discord-link">
+        Join us on Discord!
+      </a>
+
+      <section>
+        <h2>clanker policy</h2>
+
+        <p>
+          As I'm sure everyone is aware, over the last couple months, especially
+          with rather recent models, LLMs have reached a point where they can
+          autonomously (or near autonomously) solve most of what would have
+          previously been difficult and interesting CTF challenges.
+        </p>
+
+        <p>
+          While LLMs are undoubtably becoming a core tool in many disciplines of
+          cybersecurity, many of the challenge types now deemed "lost" still
+          test very relevant skillsets, or teach techniques and patterns, which
+          are still very relevant for a modern security professional or
+          enthusiast to understand.
+        </p>
+
+        <p>
+          It is also incredibly discouranging for us challenge authors, for "our
+          work" to be "slopped open", without any human in the loop...
+        </p>
+
+        <p>
+          Our goal with plfanzen CTF was to share some interesting/fun findings
+          through CTF challenges, while also allowing a place for teams to
+          compete with more difficult challenges across
+          <strike>most categories</strike> all of misc (yea idk, deal with it).
+        </p>
+
+        <p>
+          We believe that we have multiple challenges which <b>should</b> pose a
+          challenge for even the strongest LLM setups (e.g. windows kernel pwn).
+          However we are also aware that some/most of our challenges are likely
+          trivially solveable using LLMs (this used to <b>not</b> be the case
+          like a month ago 😭😭😭).
+        </p>
+
+        <p>
+          Rather than butchering our challenges in an attempt to make them "LLM
+          proof", we decided to include them as is, and let teams decide to what
+          extent they wish to use LLMs in their CTF process.
+        </p>
+
+        <p>
+          We really liked the
+          <a
+            href="https://discord.com/channels/1080522083991293952/1486836742018564328/1486864026574258247"
+            >KalmarCTF 2026 Low-LLM policy</a
+          >, and are also providing a seperate, <b>opt-in</b> bracket for
+          "human" teams; we heavily reccomend playing this way, instead of
+          throwing money at big slop.
+        </p>
+
+        <p>
+          For the "human" (low LLM) bracket, consider the following guidelines
+          on LLM usage:
+        </p>
+
+        <ul>
+          <li>
+            LLMs <b>may</b> be used to to explain general concepts that are not
+            specific to a particular challenge.<br />
+
+            <small>Okay: <i>How is a HTTP request structured?</i></small
+            ><br />
+            <small>Not Okay: <i>How do I factor this formula?</i></small>
+          </li>
+          <li>
+            LLMs <b>may</b> be used to help write stumps of code you fully
+            understand.<br />
+
+            <small
+              >Okay:
+              <i
+                >Write a function that establishes a TCP connection to a given
+                IP and port.</i
+              ></small
+            ><br />
+            <small
+              >Not Okay:
+              <i>Write a function that exploits this buffer overflow.</i></small
+            >
+          </li>
+
+          <li>
+            LLMs <b>may</b> be used to help find the correct command line
+            arguments for tools or as a search engine to find relevant resources
+            and tools.
+          </li>
+
+          <li>
+            You may <b>not</b> to utilize LLMs to solve specific problems
+            directly.
+          </li>
+          <li>
+            You may <b>not</b> to paste challenge code directly into LLM chats.
+          </li>
+          <li>
+            You may <b>not</b> to utilize tools such as GitHub Copilot, Codex,
+            or Claude in a way that would allow them to directly interact with
+            challenge code/handouts.
+          </li>
+          <li>
+            You may <b>not</b> to ask LLMs to implement a full solution based on
+            a high-level description or a few buzzwords.
+          </li>
+          <li>
+            You may <b>not</b> to use LLMs for writeups (for writeup prizes).
+          </li>
+        </ul>
+
+        <p>
+          We reserve the right to disqualify teams from the "humans" bracket if
+          we find evidence of LLM usage that violates the rules, or to
+          disqualify teams from the writeup prizes for the same reason.
+        </p>
+
+        <h3 style="margin: 0">applying for the "humans" bracket</h3>
+
+        <p>
+          Have your team captain / representative email us at
+          <a href="mailto:vorstand@plfanzen.lol">vorstand@plfanzen.lol</a> with
+          a filled out version of <a href="/2026/form.pdf">the form</a>. Opt-in
+          for the "humans" bracket will apply to your whole team. We may
+          disqualify teams from the "humans" bracket if we find evidence of LLM
+          usage that violates the rules.
+        </p>
+      </section>
+
+      <section>
+        <h2 style="margin: 0">sponsors</h2>
+        <p>
+          We would like to thank our sponsors for supporting us and making this
+          event possible:
+        </p>
+        <br />
+        <p>
+          <img
+            src="https://pwnd.at/_astro/Pwnd_Labs_Logo_RedBlack_png.CL0N_Nuw_1EVapd.webp"
+            style="background: white"
+          />
+          <br />
+
+          <a href="https://pwnd.at/">PWND Labs GmbH</a> is a cybersecurity
+          company, founded by past and present ECSC and DEF CON Finals players,
+          specializing in application security. We offer source code audits and
+          secure software development consulting.
+        </p>
+        <p>
+          <img src="static/ottersec.png" style="background: white" />
+          <br />
+
+          <a href="https://osec.io">OtterSec</a> secures critical blockchain
+          infrastructure — from custom compilers to novel virtual machines, we
+          review a wide range of difficult targets. Our team consists largely of
+          CTF players that enjoy solving hard problems. If that sounds like you,
+          please apply through our
+          <a href="https://osec.io/careers">careers</a> page.
+        </p>
+      </section>
+
+      <section>
+        <h2 style="margin: 0">prizes</h2>
+        <h3>placement</h3>
+        <ul>
+          <li>25€</li>
+          <li>15€</li>
+          <li>10€</li>
+        </ul>
+
+        <h3>writeups</h3>
+        <ul>
+          <li>~700€ distrubuted among writeups (exact distribution TBD)</li>
+        </ul>
+      </section>
+
+      <footer>
+        <a href="https://www.alpsec.at/impressum/">Imprint</a>
+        <a href="#main"><img src="/favicon.png" alt="hloe logo" /></a>
+      </footer>
+    </main>
+  </body>
+</html>
